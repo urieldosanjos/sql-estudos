@@ -1,2 +1,2 @@
-# sql-estudos
+# sql-server-estudos
 Aqui irei armazenar tudo o que estou aprendendo sobre a linguagem SQL.
