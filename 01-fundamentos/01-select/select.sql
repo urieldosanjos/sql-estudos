@@ -10,12 +10,12 @@ a tabela.
 SELECT *
 FROM Person.Person;
 
--- Também pode selecionar apenas uma ou mais colunas
+-- Também pode selecionar apenas uma ou mais colunas.
 
 SELECT FirstName
 FROM Person.Person;
 
-SELECT FirstName
+SELECT FirstName, Lastname -- "FirstName" e "LastName" são os nomes das colunas da tabela Person.Person.
 FROM Person.Person;
 
 /*
@@ -29,7 +29,7 @@ FROM Person.Person;
 DISTINCT: Remove linhas repetidas, considerando a combinação de todas as colunas do SELECT.
 */
 
-SELECT DISTINCT FirstName --"FirstName" é o nome da coluna
+SELECT DISTINCT FirstName
 FROM Person.Person;
 
 SELECT DISTINCT FirstName, LastName
